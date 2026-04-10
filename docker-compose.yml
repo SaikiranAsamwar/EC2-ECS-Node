@@ -1,18 +1,24 @@
 services:
   frontend:
     build: ./frontend
-    ports: 
+    ports:
       - "80:80"
     depends_on:
       - backend
- 
+
   backend:
     build: ./backend
+    environment:
+      - MONGO_URI=mongodb://mongo:27017/devops
     depends_on:
       - mongo
+    ports:
+      - "3000:3000"
 
   mongo:
     image: mongo:latest
+    ports:
+      - "27017:27017"
     volumes:
       - mongo-data:/data/db
 
