@@ -1,6 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>DevOps Dashboard</title>
   <link rel="stylesheet" href="style.css">
 </head>
@@ -11,10 +13,14 @@
   <h1>🚀 DevOps Project Dashboard</h1>
 
   <div class="form">
+    <label for="name">Project Name</label>
     <input id="name" placeholder="Project Name">
+
+    <label for="tech">Tech Stack</label>
     <input id="tech" placeholder="Tech Stack">
 
-    <select id="status">
+    <label for="status">Status</label>
+    <select id="status" title="Project Status">
       <option>In Progress</option>
       <option>Completed</option>
     </select>

@@ -1,5 +1,5 @@
 body {
-  font-family: Arial;
+  font-family: Arial, sans-serif;
   background: #f5f7fa;
   margin: 0;
   padding: 20px;
@@ -32,7 +32,7 @@ input, select {
 
 button {
   padding: 10px 20px;
-  background: #007bff;
+  background: #0056b3;
   color: white;
   border: none;
   border-radius: 5px;
@@ -40,7 +40,7 @@ button {
 }
 
 button:hover {
-  background: #0056b3;
+  background: #004494;
 }
 
 .projects {
@@ -65,5 +65,5 @@ button:hover {
 }
 
 .progress {
-  color: orange;
+  color: #8a5a00;
 }
