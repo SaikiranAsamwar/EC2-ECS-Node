@@ -1,0 +1,40 @@
+# Node modules
+
+node_modules/
+
+# Logs
+
+logs
+*.log
+npm-debug.log*
+
+# Environment variables
+
+.env
+
+# OS files
+
+.DS_Store
+Thumbs.db
+
+# Docker
+
+docker-compose.override.yml
+
+# Build / temp files
+
+dist/
+build/
+
+# IDE / Editor files
+
+.vscode/
+.idea/
+
+# MongoDB data (if local)
+
+data/
+
+# Coverage reports
+
+coverage/
