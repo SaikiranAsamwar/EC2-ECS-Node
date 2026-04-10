@@ -21,13 +21,15 @@ body {
   min-height: 100%;
 }
 
-body {
+body.app-shell {
   font-family: "Segoe UI", "Trebuchet MS", Arial, sans-serif;
   color: var(--ink);
   background: radial-gradient(circle at 12% 18%, #dceff4 0, transparent 40%),
               radial-gradient(circle at 88% 10%, #fde8cf 0, transparent 38%),
               var(--bg);
   padding: 28px 16px 40px;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 
 .bg-shape {
